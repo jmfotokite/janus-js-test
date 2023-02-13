@@ -1,10 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Janus } from 'janus-gateway';
+import { JanusJS } from 'janus-gateway';
 
 function App() {
-  console.log(Janus)
+  console.log(JanusJS.Janus)
 
   return (
     <div className="App">
